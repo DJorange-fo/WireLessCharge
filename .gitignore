@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs (also covered by sub-project .gitignore)
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+
+# Misc
+*.log

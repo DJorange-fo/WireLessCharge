@@ -1,0 +1,7 @@
+ 
+要开始，请键入 doc。
+有关产品信息，请访问 www.mathworks.com。
+ 
+{文件: D:\_Project\wirelessCharge\simulation\wireless_charge_params.m 行: 41 列: 13
+运算符的使用无效。
+} 
