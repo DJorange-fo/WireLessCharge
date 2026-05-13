@@ -1,0 +1,28 @@
+# Keil MDK
+*.uvguix.*
+*.uvoptx
+*.scvd
+*.dbgconf
+*.dep
+RTE/
+DebugConfig/
+
+# Build outputs
+*.axf
+*.hex
+*.bin
+*.htm
+*.lnp
+*.map
+*.o
+*.d
+*.crf
+*.lst
+*.build_log.htm
+
+# CubeMX
+.mxproject
+
+# IDE
+.vscode/
+.idea/
