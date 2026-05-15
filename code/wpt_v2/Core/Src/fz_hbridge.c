@@ -58,6 +58,11 @@ int fz_hbridge_is_enabled(void)
     return g_enabled;
 }
 
+uint16_t fz_hbridge_get_phase(void)
+{
+    return g_phase;
+}
+
 void fz_hbridge_set_phase(uint16_t phase)
 {
     if (phase > HBRIDGE_PHASE_MAX)
