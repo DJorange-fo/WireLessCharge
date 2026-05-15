@@ -25,6 +25,19 @@
 /* USER CODE BEGIN Includes */
 #include "fz_hbridge.h"
 
+#ifdef USE_FREERTOS
+#include "FreeRTOS.h"
+#include "task.h"
+
+/* External task functions (defined in app_tasks.c) */
+extern void vTaskController(void *pvParameters);
+extern void vTaskPeripheral(void *pvParameters);
+
+/* System configuration helpers (defined in syscfg.c) */
+extern void syscfg_jtag_release(void);
+extern void syscfg_powerup_safety(void);
+#endif
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -34,9 +47,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define BUTTON_PIN   GPIO_PIN_15
-#define BUTTON_PORT  GPIOB
-#define DEBOUNCE_MS  50U
 
 /* USER CODE END PD */
 
@@ -48,9 +58,6 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-static uint32_t s_keyLastTick = 0;
-static uint8_t  s_keyStable   = 1;
-static uint8_t  s_keyPrev     = 1;
 
 /* USER CODE END PV */
 
@@ -89,12 +96,11 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-    SYSCFG->CFGR1 = (SYSCFG->CFGR1 & ~(0x7UL << 26)) | (0x2UL << 26);
-    __HAL_RCC_GPIOB_CLK_ENABLE();
-    __HAL_RCC_GPIOA_CLK_ENABLE();
-    HAL_GPIO_WritePin(EN1_GPIO_Port, EN1_Pin, GPIO_PIN_SET);
-    HAL_GPIO_WritePin(EN2_GPIO_Port, EN2_Pin, GPIO_PIN_SET);
-    HAL_Delay(50);
+    /* JTAG release + power-up safety.
+     * syscfg_jtag_release() MUST run before MX_GPIO_Init(),
+     * otherwise PB3/PB4/PA15 stay locked in JTAG mode. */
+    syscfg_jtag_release();
+    syscfg_powerup_safety();
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
@@ -103,7 +109,23 @@ int main(void)
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
   fz_hbridge_init();
-  fz_hbridge_set_phase(180); 
+  fz_hbridge_set_phase(180);
+
+  #ifdef USE_FREERTOS
+  /* FreeRTOS kernel interrupts must be lowest priority on Cortex-M4. */
+  HAL_NVIC_SetPriority(SysTick_IRQn,   configLIBRARY_LOWEST_INTERRUPT_PRIORITY, 0);
+  HAL_NVIC_SetPriority(PendSV_IRQn,    configLIBRARY_LOWEST_INTERRUPT_PRIORITY, 0);
+
+  {
+      extern void vTaskController(void *pv);
+      extern void vTaskPeripheral(void *pv);
+
+      xTaskCreate(vTaskController, "ctrl", 200, NULL, 3, NULL);
+      xTaskCreate(vTaskPeripheral, "peri", 200, NULL, 1, NULL);
+  }
+
+  vTaskStartScheduler();
+  #endif
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -113,19 +135,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    uint8_t key_curr = HAL_GPIO_ReadPin(BUTTON_PORT, BUTTON_PIN);
-    if (key_curr != s_keyPrev) {
-        s_keyLastTick = HAL_GetTick();
-        s_keyPrev = key_curr;
-    }
-    if ((HAL_GetTick() - s_keyLastTick) > DEBOUNCE_MS) {
-        if (key_curr != s_keyStable) {
-            s_keyStable = key_curr;
-            if (s_keyStable == 0) {
-                fz_hbridge_toggle();
-            }
-        }
-    }
+    /* Application logic runs in FreeRTOS tasks (app_tasks.c). */
   }
   /* USER CODE END 3 */
 }

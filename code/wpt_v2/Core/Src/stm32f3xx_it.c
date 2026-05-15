@@ -22,6 +22,18 @@
 #include "stm32f3xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#ifdef USE_FREERTOS
+#include "FreeRTOS.h"
+#include "task.h"
+
+extern void xPortSysTickHandler(void);
+
+/* Rename CubeMX-generated SVC_Handler / PendSV_Handler so FreeRTOS port.c
+ * can provide the real implementations (defined via macro in FreeRTOSConfig.h).
+ * This avoids a linker conflict while keeping the file CubeMX-regenerable. */
+#define SVC_Handler      __unused_CubeMX_SVC_Handler
+#define PendSV_Handler   __unused_CubeMX_PendSV_Handler
+#endif
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -187,7 +199,11 @@ void SysTick_Handler(void)
   /* USER CODE END SysTick_IRQn 0 */
   HAL_IncTick();
   /* USER CODE BEGIN SysTick_IRQn 1 */
-
+  #ifdef USE_FREERTOS
+  if (xTaskGetSchedulerState() != taskSCHEDULER_NOT_STARTED) {
+      xPortSysTickHandler();
+  }
+  #endif
   /* USER CODE END SysTick_IRQn 1 */
 }
 

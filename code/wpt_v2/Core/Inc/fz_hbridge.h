@@ -11,5 +11,6 @@ void fz_hbridge_disable(void);
 void fz_hbridge_toggle(void);
 int  fz_hbridge_is_enabled(void);
 void fz_hbridge_set_phase(uint16_t phase);
+uint16_t fz_hbridge_get_phase(void);
 
 #endif
