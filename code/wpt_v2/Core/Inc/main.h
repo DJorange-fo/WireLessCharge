@@ -57,6 +57,12 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define VIN_Pin GPIO_PIN_0
+#define VIN_GPIO_Port GPIOA
+#define Idc_Pin GPIO_PIN_1
+#define Idc_GPIO_Port GPIOA
+#define Iac_Pin GPIO_PIN_0
+#define Iac_GPIO_Port GPIOB
 #define EN_Pin GPIO_PIN_15
 #define EN_GPIO_Port GPIOB
 #define EN2_Pin GPIO_PIN_15

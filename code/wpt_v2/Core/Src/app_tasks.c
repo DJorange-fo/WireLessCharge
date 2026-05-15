@@ -9,6 +9,7 @@
 
 #include "main.h"
 #include "fz_hbridge.h"
+#include "adc_sensor.h"
 #include "FreeRTOS.h"
 #include "task.h"
 
@@ -65,7 +66,12 @@ void vTaskController(void *pvParameters)
     TickType_t xLastWake = xTaskGetTickCount();
 
     for (;;) {
-        /* TODO: 1. ADC sample (VS1, VS2, VP, VIN, Idc, Iac) */
+        /* 1. ADC read (fresh from DMA circular buffer, updated at ~150kHz) */
+        float vin  = adc_read_vin_v();
+        float idc  = adc_read_idc_a();
+        float iac  = adc_read_iac_a();
+        (void)vin; (void)idc; (void)iac;
+
         /* TODO: 2. Protection checks (OCP, OVP, OTP) */
         /* TODO: 3. PID control loop → fz_hbridge_set_phase() */
 

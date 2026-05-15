@@ -18,12 +18,15 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "adc.h"
+#include "dma.h"
 #include "tim.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "fz_hbridge.h"
+#include "adc_sensor.h"
 
 #ifdef USE_FREERTOS
 #include "FreeRTOS.h"
@@ -105,11 +108,16 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_TIM2_Init();
   MX_TIM3_Init();
+  MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
   fz_hbridge_init();
   fz_hbridge_set_phase(180);
+
+  /* Start ADC1 + DMA circular scan (adc_raw[3] updated continuously) */
+  adc_sensor_start();
 
   #ifdef USE_FREERTOS
   /* FreeRTOS kernel interrupts must be lowest priority on Cortex-M4. */
