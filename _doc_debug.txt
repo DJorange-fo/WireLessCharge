@@ -1,0 +1,51 @@
+[0] Style: Normal | Runs: 0 | 
+[1] Style: Normal | Runs: 1 | 
+[2] Style: Normal | Runs: 0 | 
+[3] Style: Normal | Runs: 5 | 国家（市）级大学生创新训练项目
+[4] Style: Normal | Runs: 1 | 中期检查报告
+[5] Style: Normal | Runs: 0 | 
+[6] Style: Normal | Runs: 0 | 
+[7] Style: Normal | Runs: 6 | 项目名称： 面向四足机器人自主泊接的抗偏移LCC-LCC 磁耦合无线充电系统研究 
+[8] Style: Normal | Runs: 5 | 项目编号：                 
+[9] Style: Normal | Runs: 6 | 所属学院：  卓越工程师学院 
+[10] Style: Normal | Runs: 6 | 项目负责人：    邓小军     
+[11] Style: Normal | Runs: 5 | 联系电话：  19897748503    
+[12] Style: Normal | Runs: 4 | 项目组成员： 严禹、王义辰  
+[13] Style: Normal | Runs: 5 | 指导教师：     卢伟国      
+[14] Style: Normal | Runs: 0 | 
+[15] Style: Normal | Runs: 0 | 
+[16] Style: Normal | Runs: 1 | 本科生院 制
+[17] Style: Normal | Runs: 1 | 填写说明
+[18] Style: Normal | Runs: 0 | 
+[19] Style: Normal | Runs: 1 | 1、本表填写内容必须与事实相符，逐项认真填写，表达准确严谨。空缺项要填“无”。
+[20] Style: Normal | Runs: 1 | 2、报告书填写内容应言简意赅，思路清晰，论证充分，字迹清楚，一律用计算机输入打印。
+[21] Style: Normal | Runs: 2 | 3、需签字部分由相关人员以黑色钢笔或水笔签名。均用A4纸双面打印，于左侧装订成册。
+[22] Style: Normal | Runs: 1 | 4、格式要求：
+[23] Style: Normal | Runs: 2 | （1）文中小标题为四号、仿宋、加黑；
+[24] Style: Normal | Runs: 2 | （2）栏内正文为小四号、仿宋。
+[25] Style: Normal | Runs: 4 | （3）栏内正文1.5倍行距。
+[26] Style: Normal | Runs: 0 | 
+[27] Style: Normal | Runs: 0 | 
+[28] Style: Normal | Runs: 0 | 
+[29] Style: Normal | Runs: 0 | 
+[30] Style: Normal | Runs: 0 | 
+[31] Style: Normal | Runs: 0 | 
+[32] Style: Normal | Runs: 0 | 
+[33] Style: Normal | Runs: 0 | 
+[34] Style: Normal | Runs: 0 | 
+[35] Style: Normal | Runs: 0 | 
+[36] Style: Normal | Runs: 0 | 
+[37] Style: Normal | Runs: 0 | 
+[38] Style: Normal | Runs: 0 | 
+[39] Style: Normal | Runs: 0 | 
+[40] Style: Normal | Runs: 0 | 
+[41] Style: Normal | Runs: 0 | 
+[42] Style: Normal | Runs: 0 | 
+[43] Style: Normal | Runs: 0 | 
+[44] Style: Normal | Runs: 0 | 
+[45] Style: Normal | Runs: 0 | 
+[46] Style: Normal | Runs: 0 | 
+[47] Style: Normal | Runs: 0 | 
+[48] Style: Normal | Runs: 0 | 
+[49] Style: Normal | Runs: 0 | 
+[50] Style: Normal | Runs: 0 | 

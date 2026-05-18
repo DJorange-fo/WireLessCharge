@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C d:/_Project/wirelessCharge log --oneline -30)",
+      "Bash(git -C d:/_Project/wirelessCharge log --oneline --all --graph)",
+      "Bash(git -C d:/_Project/wirelessCharge diff --stat fbeab90..5580eec)",
+      "Bash(git -C d:/_Project/wirelessCharge log --oneline 31c967d -1)",
+      "Bash(git -C d:/_Project/wirelessCharge branch -a)",
+      "Bash(cat /tmp/claude-mem/CLAUDE.md)",
+      "Read(//tmp/claude-mem/**)",
+      "Bash(cat /tmp/andrej-karpathy-skills/CLAUDE.md)",
+      "Read(//tmp/andrej-karpathy-skills/**)",
+      "Bash(cat /tmp/andrej-karpathy-skills/README.md)",
+      "Bash(cat /tmp/andrej-karpathy-skills/skills/karpathy-guidelines/SKILL.md)",
+      "Read(//tmp/andrej-karpathy-skills/skills/karpathy-guidelines/**)",
+      "Bash(cat /tmp/andrej-karpathy-skills/EXAMPLES.md)"
+    ]
+  }
+}

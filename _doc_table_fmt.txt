@@ -1,0 +1,687 @@
+
+=== Row 0, Cell[0] ===
+Text[:200]: 一、项目组成员工作情况
+  Para[0]: alignment=None, line_spacing=317500
+    Run[0]: size=152400, name=仿宋_GB2312, bold=True, text=一、项目组成员工作情况
+
+=== Row 1, Cell[0] ===
+Text[:200]: 项目组
+成员
+  Para[0]: alignment=CENTER (1), line_spacing=317500
+    Run[0]: size=152400, name=仿宋_GB2312, bold=None, text=项目组
+  Para[1]: alignment=CENTER (1), line_spacing=317500
+    Run[0]: size=152400, name=仿宋_GB2312, bold=None, text=成员
+
+=== Row 7, Cell[0] ===
+Text[:200]: 本项目围绕"四足机器人非结构化泊接条件下，磁耦合谐振式无线电能传输因大范围偏移引起电流波动、效率下降"的关键痛点，按照"理论学习—仿真建模—硬件样机—测试迭代—升级优化"的技术路线，已完成两版样机的迭代研发。目前第一版已完成完整的原理验证，第二版已进入实物测试与优化阶段。
+一、前期理论学习与方案调研
+项目组在立项后开展了系统性的理论学习和文献调研工作，为后续硬件研发奠定了坚实基础：
+（1）无线充电
+  Para[0]: alignment=None, line_spacing=1.5
+    Run[0]: size=152400, name=仿宋, bold=None, text=本项目围绕
+    Run[1]: size=152400, name=仿宋, bold=None, text="
+    Run[2]: size=152400, name=仿宋, bold=None, text=四足机器人非结构化泊接条件下，磁耦合谐振式无线电能传输因大范围偏移引起电流波动、效率下降
+    Run[3]: size=152400, name=仿宋, bold=None, text="
+    Run[4]: size=152400, name=仿宋, bold=None, text=的关键痛点，按照
+    Run[5]: size=152400, name=仿宋, bold=None, text="
+    Run[6]: size=152400, name=仿宋, bold=None, text=理论学习
+    Run[7]: size=152400, name=仿宋, bold=None, text=—
+    Run[8]: size=152400, name=仿宋, bold=None, text=仿真建模
+    Run[9]: size=152400, name=仿宋, bold=None, text=—
+    Run[10]: size=152400, name=仿宋, bold=None, text=硬件样机
+    Run[11]: size=152400, name=仿宋, bold=None, text=—
+    Run[12]: size=152400, name=仿宋, bold=None, text=测试迭代
+    Run[13]: size=152400, name=仿宋, bold=None, text=—
+    Run[14]: size=152400, name=仿宋, bold=None, text=升级优化
+    Run[15]: size=152400, name=仿宋, bold=None, text="
+    Run[16]: size=152400, name=仿宋, bold=None, text=的技术路线，已完成两版样机的迭代研发。目前第一版已完成完整的原理验证，第二版已进入实物测试与优化阶段。
+  Para[1]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=一、前期理论学习与方案调研
+  Para[2]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=项目组在立项后开展了系统性的理论学习和文献调研工作，为后续硬件研发奠定了坚实基础：
+  Para[3]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=1
+    Run[2]: size=152400, name=仿宋, bold=None, text=）无线充电基本原理学习：系统学习了磁耦合谐振式无线电能传输（
+    Run[3]: size=152400, name=仿宋, bold=None, text=WPT
+    Run[4]: size=152400, name=仿宋, bold=None, text=）的基本工作原理，包括电磁感应定律、耦合模理论、谐振电路的频率特性与阻抗匹配原理等。
+  Para[4]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=2
+    Run[2]: size=152400, name=仿宋, bold=None, text=）
+    Run[3]: size=152400, name=仿宋, bold=None, text=LCC-LCC
+    Run[4]: size=152400, name=仿宋, bold=None, text=拓扑研究：重点深入研究了
+    Run[5]: size=152400, name=仿宋, bold=None, text=LCC-LCC
+    Run[6]: size=152400, name=仿宋, bold=None, text=双谐振补偿网络的工作机理，分析了该拓扑的恒流输出特性、抗负载变化能力以及在弱磁耦合工况下的零电压开关（
+    Run[7]: size=152400, name=仿宋, bold=None, text=ZVS
+    Run[8]: size=152400, name=仿宋, bold=None, text=）条件。通过查阅国内外相关学术论文，掌握了
+    Run[9]: size=152400, name=仿宋, bold=None, text=LCC-LCC
+    Run[10]: size=152400, name=仿宋, bold=None, text=谐振网络参数的设计方法与优化策略。
+  Para[5]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=3
+    Run[2]: size=152400, name=仿宋, bold=None, text=）无板间通讯异物检测（
+    Run[3]: size=152400, name=仿宋, bold=None, text=FOD
+    Run[4]: size=152400, name=仿宋, bold=None, text=）方法研究：针对传统异物检测需要发射端与接收端之间建立通信链路的局限性，重点调研了基于品质因数（
+    Run[5]: size=152400, name=仿宋, bold=None, text=Q
+    Run[6]: size=152400, name=仿宋, bold=None, text=值）检测的无需板间通讯的异物检测方案。该方案的核心原理为：在系统上电前对发射线圈施加短时激励信号，随后切断激励，通过检测线圈谐振电流的自由衰减速率来提取回路品质因数
+    Run[7]: size=152400, name=仿宋, bold=None, text=Q
+    Run[8]: size=152400, name=仿宋, bold=None, text=值；当金属异物位于磁场中时，涡流效应将导致
+    Run[9]: size=152400, name=仿宋, bold=None, text=Q
+    Run[10]: size=152400, name=仿宋, bold=None, text=值显著下降，从而实现异物检测。该方法无需接收端配合，简化了系统架构，提升了安全性。
+  Para[6]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=4
+    Run[2]: size=152400, name=仿宋, bold=None, text=）
+    Run[3]: size=152400, name=仿宋, bold=None, text=DD-DDQ
+    Run[4]: size=152400, name=仿宋, bold=None, text=型线圈原理学习：学习了
+    Run[5]: size=152400, name=仿宋, bold=None, text=DD
+    Run[6]: size=152400, name=仿宋, bold=None, text=型及
+    Run[7]: size=152400, name=仿宋, bold=None, text=DDQ
+    Run[8]: size=152400, name=仿宋, bold=None, text=型极化线圈的磁场分布特性与抗偏移机理，掌握了
+    Run[9]: size=152400, name=仿宋, bold=None, text=DD
+    Run[10]: size=152400, name=仿宋, bold=None, text=线圈产生单方向平行磁场、
+    Run[11]: size=152400, name=仿宋, bold=None, text=DDQ
+    Run[12]: size=152400, name=仿宋, bold=None, text=线圈实现空间合成磁场的基本原理，为线圈优化设计提供了理论指导。
+  Para[7]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=二、第一版样机设计与制作
+  Para[8]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=在完成理论学习后，项目组按照
+    Run[1]: size=152400, name=仿宋, bold=None, text="
+    Run[2]: size=152400, name=仿宋, bold=None, text=电路设计
+    Run[3]: size=152400, name=仿宋, bold=None, text=—
+    Run[4]: size=152400, name=仿宋, bold=None, text=系统仿真
+    Run[5]: size=152400, name=仿宋, bold=None, text=—PCB
+    Run[6]: size=152400, name=仿宋, bold=None, text=设计
+    Run[7]: size=152400, name=仿宋, bold=None, text=—
+    Run[8]: size=152400, name=仿宋, bold=None, text=焊接调试
+    Run[9]: size=152400, name=仿宋, bold=None, text="
+    Run[10]: size=152400, name=仿宋, bold=None, text=的完整设计流程，开展了第一版样机的研制工作：
+  Para[9]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=1
+    Run[2]: size=152400, name=仿宋, bold=None, text=）主控选型与电路设计：第一版选用
+    Run[3]: size=152400, name=仿宋, bold=None, text=STM32F103C8T6
+    Run[4]: size=152400, name=仿宋, bold=None, text=作为主控
+    Run[5]: size=152400, name=仿宋, bold=None, text=MCU
+    Run[6]: size=152400, name=仿宋, bold=None, text=。设计了包含母线电流检测电路（基于
+    Run[7]: size=152400, name=仿宋, bold=None, text=INA282
+    Run[8]: size=152400, name=仿宋, bold=None, text=电流检测放大器与采样电阻）、两个半桥逆变电路（基于
+    Run[9]: size=152400, name=仿宋, bold=None, text=EG2104S
+    Run[10]: size=152400, name=仿宋, bold=None, text=栅极驱动器与
+    Run[11]: size=152400, name=仿宋, bold=None, text=MOSFET
+    Run[12]: size=152400, name=仿宋, bold=None, text=）、
+    Run[13]: size=152400, name=仿宋, bold=None, text=LCC-LCC
+    Run[14]: size=152400, name=仿宋, bold=None, text=谐振补偿网络、以及输出整流回路的完整无线充电系统原理图。
+  Para[10]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=2
+    Run[2]: size=152400, name=仿宋, bold=None, text=）
+    Run[3]: size=152400, name=仿宋, bold=None, text=Simulink
+    Run[4]: size=152400, name=仿宋, bold=None, text=电路仿真：在
+    Run[5]: size=152400, name=仿宋, bold=None, text=MATLAB/Simulink
+    Run[6]: size=152400, name=仿宋, bold=None, text=平台上搭建了完整的
+    Run[7]: size=152400, name=仿宋, bold=None, text=LCC-LCC
+    Run[8]: size=152400, name=仿宋, bold=None, text=无线充电系统电路仿真模型，包含直流电源、全桥逆变器、
+    Run[9]: size=152400, name=仿宋, bold=None, text=LCC
+    Run[10]: size=152400, name=仿宋, bold=None, text=谐振网络、磁耦合线圈模型及负载。通过仿真验证了电路参数设计的正确性，分析了不同移相角、不同负载条件下的系统输出特性。
+  Para[11]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=3
+    Run[2]: size=152400, name=仿宋, bold=None, text=）
+    Run[3]: size=152400, name=仿宋, bold=None, text=Ansys
+    Run[4]: size=152400, name=仿宋, bold=None, text=磁场仿真：基于
+    Run[5]: size=152400, name=仿宋, bold=None, text=Ansys Maxwell
+    Run[6]: size=152400, name=仿宋, bold=None, text=搭建了发射
+    Run[7]: size=152400, name=仿宋, bold=None, text=-
+    Run[8]: size=152400, name=仿宋, bold=None, text=接收线圈的三维电磁场仿真模型，对不同线圈间距、不同横向偏移、不同磁芯配置下的磁场分布与耦合系数进行了仿真分析，为线圈结构与磁屏蔽方案的设计提供了数据支撑。
+  Para[12]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=4
+    Run[2]: size=152400, name=仿宋, bold=None, text=）
+    Run[3]: size=152400, name=仿宋, bold=None, text=PCB
+    Run[4]: size=152400, name=仿宋, bold=None, text=设计与加工：使用嘉立创
+    Run[5]: size=152400, name=仿宋, bold=None, text=EDA
+    Run[6]: size=152400, name=仿宋, bold=None, text=（
+    Run[7]: size=152400, name=仿宋, bold=None, text=LCEDA
+    Run[8]: size=152400, name=仿宋, bold=None, text=）完成了完整的电路原理图绘制与
+    Run[9]: size=152400, name=仿宋, bold=None, text=PCB
+    Run[10]: size=152400, name=仿宋, bold=None, text=布局设计。
+    Run[11]: size=152400, name=仿宋, bold=None, text=PCB
+    Run[12]: size=152400, name=仿宋, bold=None, text=采用双层板设计，包含功率回路与控制回路两部分。
+  Para[13]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=5
+    Run[2]: size=152400, name=仿宋, bold=None, text=）嵌入式软件开发：编写了基于
+    Run[3]: size=152400, name=仿宋, bold=None, text=HAL
+    Run[4]: size=152400, name=仿宋, bold=None, text=库的电流检测代码（
+    Run[5]: size=152400, name=仿宋, bold=None, text=ADC
+    Run[6]: size=152400, name=仿宋, bold=None, text=采样与母线电流实时监控）、全桥逆变控制代码（基于
+    Run[7]: size=152400, name=仿宋, bold=None, text=TIM
+    Run[8]: size=152400, name=仿宋, bold=None, text=定时器生成移相
+    Run[9]: size=152400, name=仿宋, bold=None, text=PWM
+    Run[10]: size=152400, name=仿宋, bold=None, text=信号），以及硬件过流保护代码，实现了系统的闭环控制与安全保护功能。
+  Para[14]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=6
+    Run[2]: size=152400, name=仿宋, bold=None, text=）硬件焊接与系统联调：完成了全部元器件的焊接与组装，对发射端与接收端进行了联合调试。在感值匹配条件下，系统实现母线
+    Run[3]: size=152400, name=仿宋, bold=None, text=60W
+    Run[4]: size=152400, name=仿宋, bold=None, text=功率输入，输出端稳定获得约
+    Run[5]: size=152400, name=仿宋, bold=None, text=30W
+    Run[6]: size=152400, name=仿宋, bold=None, text=功率，系统整体效率约
+    Run[7]: size=152400, name=仿宋, bold=None, text=50%
+    Run[8]: size=152400, name=仿宋, bold=None, text=。测试结果验证了
+    Run[9]: size=152400, name=仿宋, bold=None, text=LCC-LCC
+    Run[10]: size=152400, name=仿宋, bold=None, text=拓扑的无线能量传输可行性，但也暴露出效率偏低、稳定性不足等问题。
+  Para[15]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=三、第一版问题分析与改进方向
+  Para[16]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=针对第一版样机暴露的问题，项目组进行了系统的复盘分析与测试排查，将主要原因归纳如下：
+  Para[17]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=1
+    Run[2]: size=152400, name=仿宋, bold=None, text=）线圈品质不佳：第一版采用购买的成品线圈，线圈内径偏大，导致原边与副边之间的耦合系数
+    Run[3]: size=152400, name=仿宋, bold=None, text=k
+    Run[4]: size=152400, name=仿宋, bold=None, text=偏小（实测约
+    Run[5]: size=152400, name=仿宋, bold=None, text=0.15
+    Run[6]: size=152400, name=仿宋, bold=None, text=），等效品质因数不足，直接限制了能量传输效率。
+  Para[18]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=2
+    Run[2]: size=152400, name=仿宋, bold=None, text=）谐振电容失配：谐振网络中使用的电容未经过严格的参数匹配筛选，电容的等效串联电阻（
+    Run[3]: size=152400, name=仿宋, bold=None, text=ESR
+    Run[4]: size=152400, name=仿宋, bold=None, text=）偏大，且实际容值与标称值存在偏差，导致谐振环路损耗增加、谐振频率偏移。
+  Para[19]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=3
+    Run[2]: size=152400, name=仿宋, bold=None, text=）
+    Run[3]: size=152400, name=仿宋, bold=None, text=PCB
+    Run[4]: size=152400, name=仿宋, bold=None, text=布局问题：功率回路走线较长且换层过孔设计不合理，引入较大的寄生电感和电阻，导致高频工况下损耗增大；功率电路与控制电路未实现有效的物理隔离，存在电磁干扰问题。
+  Para[20]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=4
+    Run[2]: size=152400, name=仿宋, bold=None, text=）输入电压偏低：
+    Run[3]: size=152400, name=仿宋, bold=None, text=24V
+    Run[4]: size=152400, name=仿宋, bold=None, text=母线电压下，同等功率对应的电流较大，导致线路损耗与开关损耗偏高，限制了效率提升空间。
+  Para[21]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=5
+    Run[2]: size=152400, name=仿宋, bold=None, text=）整流损耗大：第一版采用二极管全桥整流方案，二极管的正向导通压降造成了较大的整流损耗，尤其在低电压大电流工况下更为明显。
+  Para[22]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=四、第二版迭代升级设计
+  Para[23]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=基于第一版的问题分析，项目组启动了全面的第二版迭代升级，主要改进方向如下：
+  Para[24]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=1
+    Run[2]: size=152400, name=仿宋, bold=None, text=）
+    Run[3]: size=152400, name=仿宋, bold=None, text=MCU
+    Run[4]: size=152400, name=仿宋, bold=None, text=平台升级：将主控
+    Run[5]: size=152400, name=仿宋, bold=None, text=MCU
+    Run[6]: size=152400, name=仿宋, bold=None, text=从
+    Run[7]: size=152400, name=仿宋, bold=None, text=STM32F103C8T6
+    Run[8]: size=152400, name=仿宋, bold=None, text=升级为
+    Run[9]: size=152400, name=仿宋, bold=None, text=STM32F334C8T6
+    Run[10]: size=152400, name=仿宋, bold=None, text=。
+    Run[11]: size=152400, name=仿宋, bold=None, text=F334
+    Run[12]: size=152400, name=仿宋, bold=None, text=内置高分辨率定时器（
+    Run[13]: size=152400, name=仿宋, bold=None, text=HRTIM
+    Run[14]: size=152400, name=仿宋, bold=None, text=），具有更强的
+    Run[15]: size=152400, name=仿宋, bold=None, text=PWM
+    Run[16]: size=152400, name=仿宋, bold=None, text=生成能力和更灵活的相移控制功能，同时保留了与
+    Run[17]: size=152400, name=仿宋, bold=None, text=F103
+    Run[18]: size=152400, name=仿宋, bold=None, text=相同封装的
+    Run[19]: size=152400, name=仿宋, bold=None, text=Cortex-M4
+    Run[20]: size=152400, name=仿宋, bold=None, text=内核。
+  Para[25]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=2
+    Run[2]: size=152400, name=仿宋, bold=None, text=）
+    Run[3]: size=152400, name=仿宋, bold=None, text=BOOST
+    Run[4]: size=152400, name=仿宋, bold=None, text=升压方案加入：在第一版的
+    Run[5]: size=152400, name=仿宋, bold=None, text=24V
+    Run[6]: size=152400, name=仿宋, bold=None, text=输入之后增加一级基于
+    Run[7]: size=152400, name=仿宋, bold=None, text=TPS43061
+    Run[8]: size=152400, name=仿宋, bold=None, text=的
+    Run[9]: size=152400, name=仿宋, bold=None, text=BOOST
+    Run[10]: size=152400, name=仿宋, bold=None, text=升压电路，将母线电压由
+    Run[11]: size=152400, name=仿宋, bold=None, text=24V
+    Run[12]: size=152400, name=仿宋, bold=None, text=提升至
+    Run[13]: size=152400, name=仿宋, bold=None, text=48V
+    Run[14]: size=152400, name=仿宋, bold=None, text=。升压后同等功率下的母线电流减半，有效降低了线路损耗和开关管导通损耗。
+  Para[26]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=3
+    Run[2]: size=152400, name=仿宋, bold=None, text=）线圈优化设计
+    Run[3]: size=152400, name=仿宋, bold=None, text= — 
+    Run[4]: size=152400, name=仿宋, bold=None, text=手绕线圈与铁氧体屏蔽：放弃第一版使用的成品线圈，改为自行绕制发射端和接收端线圈。通过精确控制匝数、线径和绕制工艺，有效降低了线圈内径，提升了耦合系数。同时在发射线圈背面添加铁氧体磁片作为磁屏蔽手段，有
+  Para[27]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=4
+    Run[2]: size=152400, name=仿宋, bold=None, text=）异物检测（
+    Run[3]: size=152400, name=仿宋, bold=None, text=FOD
+    Run[4]: size=152400, name=仿宋, bold=None, text=）功能实现：在第二版中实现了基于线圈电流衰减
+    Run[5]: size=152400, name=仿宋, bold=None, text=Q
+    Run[6]: size=152400, name=仿宋, bold=None, text=值检测的异物检测功能。系统上电前，
+    Run[7]: size=152400, name=仿宋, bold=None, text=MCU
+    Run[8]: size=152400, name=仿宋, bold=None, text=控制逆变器输出短时（微秒级）激励脉冲驱动发射线圈，随后关闭
+    Run[9]: size=152400, name=仿宋, bold=None, text=PWM
+    Run[10]: size=152400, name=仿宋, bold=None, text=输出进入高阻态，通过电流传感器和
+    Run[11]: size=152400, name=仿宋, bold=None, text=ADC
+    Run[12]: size=152400, name=仿宋, bold=None, text=高速采样检测线圈谐振电流的自由衰减波形，利用衰减包络拟合计算出回路品质因数
+    Run[13]: size=152400, name=仿宋, bold=None, text=Q
+    Run[14]: size=152400, name=仿宋, bold=None, text=值。当
+    Run[15]: size=152400, name=仿宋, bold=None, text=Q
+    Run[16]: size=152400, name=仿宋, bold=None, text=值低于预设阈值时判定有金属异物存在，系统拒绝启动并进行报警提示。该功能的加入大幅提升了系统的安全性与实用性。
+  Para[28]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=5
+    Run[2]: size=152400, name=仿宋, bold=None, text=）整流方案升级：接收端整流电路由第一版的二极管全桥整流（无控整流）升级为混合整流方案
+    Run[3]: size=152400, name=仿宋, bold=None, text=——
+    Run[4]: size=152400, name=仿宋, bold=None, text=上桥臂使用二极管、下桥臂使用
+    Run[5]: size=152400, name=仿宋, bold=None, text=MOSFET
+    Run[6]: size=152400, name=仿宋, bold=None, text=并由高频
+    Run[7]: size=152400, name=仿宋, bold=None, text=PWM
+    Run[8]: size=152400, name=仿宋, bold=None, text=信号控制（同步整流）。这种
+    Run[9]: size=152400, name=仿宋, bold=None, text="
+    Run[10]: size=152400, name=仿宋, bold=None, text=上半桥二极管
+    Run[11]: size=152400, name=仿宋, bold=None, text=+
+    Run[12]: size=152400, name=仿宋, bold=None, text=下半桥
+    Run[13]: size=152400, name=仿宋, bold=None, text=MOSFET"
+    Run[14]: size=152400, name=仿宋, bold=None, text=的混合架构显著降低了正向导通压降与整流损耗，提升了接收端效率。
+  Para[29]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=6
+    Run[2]: size=152400, name=仿宋, bold=None, text=）
+    Run[3]: size=152400, name=仿宋, bold=None, text=PCB
+    Run[4]: size=152400, name=仿宋, bold=None, text=布局优化：将功率板与控制板进行物理分离布局，实现强弱电隔离，降低功率回路对控制回路的电磁干扰。优化大电流走线，将换层过孔改为围栏式过孔设计，减小寄生电感和电阻。
+  Para[30]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=7
+    Run[2]: size=152400, name=仿宋, bold=None, text=）嵌入式代码架构重构：基于
+    Run[3]: size=152400, name=仿宋, bold=None, text=FreeRTOS
+    Run[4]: size=152400, name=仿宋, bold=None, text=实时操作系统对嵌入式软件进行了全面重构，实现了多任务模块化架构。主要任务包括：
+    Run[5]: size=152400, name=仿宋, bold=None, text=PWM
+    Run[6]: size=152400, name=仿宋, bold=None, text=控制任务（移相控制与死区管理）、
+    Run[7]: size=152400, name=仿宋, bold=None, text=ADC
+    Run[8]: size=152400, name=仿宋, bold=None, text=采样任务（电流
+    Run[9]: size=152400, name=仿宋, bold=None, text=/
+    Run[10]: size=152400, name=仿宋, bold=None, text=电压多通道采集）、
+    Run[11]: size=152400, name=仿宋, bold=None, text=FOD
+    Run[12]: size=152400, name=仿宋, bold=None, text=检测任务（
+    Run[13]: size=152400, name=仿宋, bold=None, text=Q
+    Run[14]: size=152400, name=仿宋, bold=None, text=值计算与异物判断）、保护任务（过流
+    Run[15]: size=152400, name=仿宋, bold=None, text=/
+    Run[16]: size=152400, name=仿宋, bold=None, text=过压
+    Run[17]: size=152400, name=仿宋, bold=None, text=/
+    Run[18]: size=152400, name=仿宋, bold=None, text=过温保护）、通信任务（
+    Run[19]: size=152400, name=仿宋, bold=None, text=UART
+    Run[20]: size=152400, name=仿宋, bold=None, text=调试输出）等。
+    Run[21]: size=152400, name=仿宋, bold=None, text=FreeRTOS
+    Run[22]: size=152400, name=仿宋, bold=None, text=的引入使代码结构更加清晰，任务调度更加高效，系统实时性和可靠性得到显著提升。
+  Para[31]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=五、电路仿真与磁场仿真
+  Para[32]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=在第二版设计中，项目组延续了第一版的仿真验证方法：
+  Para[33]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=1
+    Run[2]: size=152400, name=仿宋, bold=None, text=）
+    Run[3]: size=152400, name=仿宋, bold=None, text=Simulink
+    Run[4]: size=152400, name=仿宋, bold=None, text=电路仿真模型根据第二版参数（
+    Run[5]: size=152400, name=仿宋, bold=None, text=48V
+    Run[6]: size=152400, name=仿宋, bold=None, text=母线电压、更新后的
+    Run[7]: size=152400, name=仿宋, bold=None, text=LCC
+    Run[8]: size=152400, name=仿宋, bold=None, text=谐振网络参数、混合整流拓扑）进行了更新与重新验证，确保理论设计的正确性。
+  Para[34]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=（
+    Run[1]: size=152400, name=仿宋, bold=None, text=2
+    Run[2]: size=152400, name=仿宋, bold=None, text=）
+    Run[3]: size=152400, name=仿宋, bold=None, text=Ansys Maxwell
+    Run[4]: size=152400, name=仿宋, bold=None, text=磁场仿真模型针对手绕线圈的几何参数进行了更新，模拟了铁氧体磁片对磁场的屏蔽效果，验证了线圈结构与磁屏蔽方案的合理性。
+  Para[35]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=六、第二版当前进展
+  Para[36]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=截至中期检查，第二版迭代已取得以下阶段成果：
+  Para[37]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=已完成项目：
+    Run[1]: size=152400, name=仿宋, bold=None, text=
+• 
+    Run[2]: size=152400, name=仿宋, bold=None, text=手绕自制发射端与接收端线圈，并完成铁氧体磁片装配
+    Run[3]: size=152400, name=仿宋, bold=None, text=
+• 
+    Run[4]: size=152400, name=仿宋, bold=None, text=发射端
+    Run[5]: size=152400, name=仿宋, bold=None, text=BOOST
+    Run[6]: size=152400, name=仿宋, bold=None, text=升压电路设计（
+    Run[7]: size=152400, name=仿宋, bold=None, text=24V→48V
+    Run[8]: size=152400, name=仿宋, bold=None, text=）
+    Run[9]: size=152400, name=仿宋, bold=None, text=
+• 
+    Run[10]: size=152400, name=仿宋, bold=None, text=发射端全桥逆变电路重设计（匹配
+    Run[11]: size=152400, name=仿宋, bold=None, text=48V
+    Run[12]: size=152400, name=仿宋, bold=None, text=平台与
+    Run[13]: size=152400, name=仿宋, bold=None, text=F334
+    Run[14]: size=152400, name=仿宋, bold=None, text=控制）
+    Run[15]: size=152400, name=仿宋, bold=None, text=
+• 
+    Run[16]: size=152400, name=仿宋, bold=None, text=接收端混合整流电路设计
+    Run[17]: size=152400, name=仿宋, bold=None, text=
+
+    Run[18]: size=152400, name=仿宋, bold=None, text=• 
+    Run[19]: size=152400, name=仿宋, bold=None, text=基于
+    Run[20]: size=152400, name=仿宋, bold=None, text=FreeRTOS
+    Run[21]: size=152400, name=仿宋, bold=None, text=的模块化嵌入式代码框架搭建
+    Run[22]: size=152400, name=仿宋, bold=None, text=
+• PCB
+    Run[23]: size=152400, name=仿宋, bold=None, text=重新设计与外发打样（已回板）
+    Run[24]: size=152400, name=仿宋, bold=None, text=
+• 
+    Run[25]: size=152400, name=仿宋, bold=None, text=部分硬件焊接与基础功能调试
+  Para[38]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=进行中项目：
+    Run[1]: size=152400, name=仿宋, bold=None, text=
+• FOD
+    Run[2]: size=152400, name=仿宋, bold=None, text=异物检测功能的参数标定与实物验证
+    Run[3]: size=152400, name=仿宋, bold=None, text=
+• 
+    Run[4]: size=152400, name=仿宋, bold=None, text=全系统联合效率测试与优化
+    Run[5]: size=152400, name=仿宋, bold=None, text=
+• Simulink
+    Run[6]: size=152400, name=仿宋, bold=None, text=与
+    Run[7]: size=152400, name=仿宋, bold=None, text=Ansys
+    Run[8]: size=152400, name=仿宋, bold=None, text=仿真模型的参数更新与验证
+
+=== Row 9, Cell[0] ===
+Text[:200]: 1. 完成了无线电能传输领域系统性的文献调研与理论学习，覆盖LCC-LCC拓扑、DD/DDQ线圈、无板间通讯FOD方法等关键技术方向。
+2. 完成第一版样机的完整设计与制作流程（电路设计→Simulink仿真→Ansys磁场仿真→PCB设计→焊接调试），建立了从理论到实物的完整研发能力。
+3. 第一版样机实现了母线60W功率输入、输出端30W功率输出的基本能量传输功能验证，系统效率约50%。
+4.
+  Para[0]: alignment=None, line_spacing=1.5
+    Run[0]: size=152400, name=仿宋, bold=None, text=1. 
+    Run[1]: size=152400, name=仿宋, bold=None, text=完成了无线电能传输领域系统性的文献调研与理论学习，覆盖
+    Run[2]: size=152400, name=仿宋, bold=None, text=LCC-LCC
+    Run[3]: size=152400, name=仿宋, bold=None, text=拓扑、
+    Run[4]: size=152400, name=仿宋, bold=None, text=DD/DDQ
+    Run[5]: size=152400, name=仿宋, bold=None, text=线圈、无板间通讯
+    Run[6]: size=152400, name=仿宋, bold=None, text=FOD
+    Run[7]: size=152400, name=仿宋, bold=None, text=方法等关键技术方向。
+  Para[1]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=2. 
+    Run[1]: size=152400, name=仿宋, bold=None, text=完成第一版样机的完整设计与制作流程（电路设计
+    Run[2]: size=152400, name=仿宋, bold=None, text=→Simulink
+    Run[3]: size=152400, name=仿宋, bold=None, text=仿真
+    Run[4]: size=152400, name=仿宋, bold=None, text=→Ansys
+    Run[5]: size=152400, name=仿宋, bold=None, text=磁场仿真
+    Run[6]: size=152400, name=仿宋, bold=None, text=→PCB
+    Run[7]: size=152400, name=仿宋, bold=None, text=设计
+    Run[8]: size=152400, name=仿宋, bold=None, text=→
+    Run[9]: size=152400, name=仿宋, bold=None, text=焊接调试），建立了从理论到实物的完整研发能力。
+  Para[2]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=3. 
+    Run[1]: size=152400, name=仿宋, bold=None, text=第一版样机实现了母线
+    Run[2]: size=152400, name=仿宋, bold=None, text=60W
+    Run[3]: size=152400, name=仿宋, bold=None, text=功率输入、输出端
+    Run[4]: size=152400, name=仿宋, bold=None, text=30W
+    Run[5]: size=152400, name=仿宋, bold=None, text=功率输出的基本能量传输功能验证，系统效率约
+    Run[6]: size=152400, name=仿宋, bold=None, text=50%
+    Run[7]: size=152400, name=仿宋, bold=None, text=。
+  Para[3]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=4. 
+    Run[1]: size=152400, name=仿宋, bold=None, text=通过第一版的问题分析与复盘，形成了系统性的优化方案，指导了第二版的全面升级。
+  Para[4]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=5. 
+    Run[1]: size=152400, name=仿宋, bold=None, text=第二版在
+    Run[2]: size=152400, name=仿宋, bold=None, text=MCU
+    Run[3]: size=152400, name=仿宋, bold=None, text=平台（
+    Run[4]: size=152400, name=仿宋, bold=None, text=F103→F334
+    Run[5]: size=152400, name=仿宋, bold=None, text=）、拓扑架构（加入
+    Run[6]: size=152400, name=仿宋, bold=None, text=BOOST
+    Run[7]: size=152400, name=仿宋, bold=None, text=升压）、线圈方案（手绕
+    Run[8]: size=152400, name=仿宋, bold=None, text=+
+    Run[9]: size=152400, name=仿宋, bold=None, text=铁氧体）、
+    Run[10]: size=152400, name=仿宋, bold=None, text=FOD
+    Run[11]: size=152400, name=仿宋, bold=None, text=检测（
+    Run[12]: size=152400, name=仿宋, bold=None, text=Q
+    Run[13]: size=152400, name=仿宋, bold=None, text=值衰减法）、整流方案（混合整流）、代码架构（
+    Run[14]: size=152400, name=仿宋, bold=None, text=FreeRTOS
+    Run[15]: size=152400, name=仿宋, bold=None, text=）等多个维度实现了全面升级。
+  Para[5]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=6. 
+    Run[1]: size=152400, name=仿宋, bold=None, text=基于
+    Run[2]: size=152400, name=仿宋, bold=None, text=FreeRTOS
+    Run[3]: size=152400, name=仿宋, bold=None, text=的模块化嵌入式代码已完成框架搭建与基础功能验证，具备
+    Run[4]: size=152400, name=仿宋, bold=None, text=PWM
+    Run[5]: size=152400, name=仿宋, bold=None, text=控制、
+    Run[6]: size=152400, name=仿宋, bold=None, text=ADC
+    Run[7]: size=152400, name=仿宋, bold=None, text=采样、
+    Run[8]: size=152400, name=仿宋, bold=None, text=FOD
+    Run[9]: size=152400, name=仿宋, bold=None, text=检测、系统保护等多任务并行运行能力。
+  Para[6]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=7. 
+    Run[1]: size=152400, name=仿宋, bold=None, text=第二版
+    Run[2]: size=152400, name=仿宋, bold=None, text=PCB
+    Run[3]: size=152400, name=仿宋, bold=None, text=已完成设计与打样，实物焊接和调试正在推进中。
+
+=== Row 11, Cell[0] ===
+Text[:200]: 组织管理与工作机制
+项目采用"小组负责制 + 例会复盘"的方式组织推进。三名成员在共同完成文献阅读与方案讨论的基础上，按照电路、磁路、装配测试三个方向分工负责，同时通过阶段节点的集中评审确保系统级一致性。当前项目日常推进机制主要包括：
+周期性讨论：以每周/每两周为周期进行一次集中讨论，汇总本周期完成事项、存在问题与下阶段计划；
+节点评审：在"设计定稿—下单加工—回板焊接—上电测试—数据复盘"等关键
+  Para[0]: alignment=None, line_spacing=1.5
+    Run[0]: size=152400, name=仿宋, bold=None, text=组织管理与工作机制
+    Run[1]: size=152400, name=仿宋, bold=None, text=
+
+    Run[2]: size=152400, name=仿宋, bold=None, text=项目采用
+    Run[3]: size=152400, name=仿宋, bold=None, text="
+    Run[4]: size=152400, name=仿宋, bold=None, text=小组负责制
+    Run[5]: size=152400, name=仿宋, bold=None, text= + 
+    Run[6]: size=152400, name=仿宋, bold=None, text=例会复盘
+    Run[7]: size=152400, name=仿宋, bold=None, text="
+    Run[8]: size=152400, name=仿宋, bold=None, text=的方式组织推进。三名成员在共同完成文献阅读与方案讨论的基础上，按照电路、磁路、装配测试三个方向分工负责，同时通过阶段节点的集中评审确保系统级一致性。当前项目日常推进机制主要包括：
+    Run[9]: size=152400, name=仿宋, bold=None, text=
+
+    Run[10]: size=152400, name=仿宋, bold=None, text=周期性讨论：以每周
+    Run[11]: size=152400, name=仿宋, bold=None, text=/
+    Run[12]: size=152400, name=仿宋, bold=None, text=每两周为周期进行一次集中讨论，汇总本周期完成事项、存在问题与下阶段计划；
+    Run[13]: size=152400, name=仿宋, bold=None, text=
+
+    Run[14]: size=152400, name=仿宋, bold=None, text=节点评审：在
+    Run[15]: size=152400, name=仿宋, bold=None, text="
+    Run[16]: size=152400, name=仿宋, bold=None, text=设计定稿
+    Run[17]: size=152400, name=仿宋, bold=None, text=—
+    Run[18]: size=152400, name=仿宋, bold=None, text=下单加工
+    Run[19]: size=152400, name=仿宋, bold=None, text=—
+    Run[20]: size=152400, name=仿宋, bold=None, text=回板焊接
+    Run[21]: size=152400, name=仿宋, bold=None, text=—
+    Run[22]: size=152400, name=仿宋, bold=None, text=上电测试
+    Run[23]: size=152400, name=仿宋, bold=None, text=—
+    Run[24]: size=152400, name=仿宋, bold=None, text=数据复盘
+    Run[25]: size=152400, name=仿宋, bold=None, text="
+    Run[26]: size=152400, name=仿宋, bold=None, text=等关键
+    Run[27]: size=152400, name=仿宋, bold=None, text=节点安排专项讨论，确保硬件迭代风险可控；
+    Run[28]: size=152400, name=仿宋, bold=None, text=
+
+    Run[29]: size=152400, name=仿宋, bold=None, text=问题闭环：对测试异常采取
+    Run[30]: size=152400, name=仿宋, bold=None, text="
+    Run[31]: size=152400, name=仿宋, bold=None, text=现象记录
+    Run[32]: size=152400, name=仿宋, bold=None, text=—
+    Run[33]: size=152400, name=仿宋, bold=None, text=排查路径
+    Run[34]: size=152400, name=仿宋, bold=None, text=—
+    Run[35]: size=152400, name=仿宋, bold=None, text=结论归因
+    Run[36]: size=152400, name=仿宋, bold=None, text=—
+    Run[37]: size=152400, name=仿宋, bold=None, text=修改措施
+    Run[38]: size=152400, name=仿宋, bold=None, text=—
+    Run[39]: size=152400, name=仿宋, bold=None, text=复测验证
+    Run[40]: size=152400, name=仿宋, bold=None, text="
+    Run[41]: size=152400, name=仿宋, bold=None, text=的闭环流程，避免仅凭经验直接更改导致重复试错。
+  Para[1]: alignment=None, line_spacing=1.5
+  Para[2]: alignment=None, line_spacing=1.5
+  Para[3]: alignment=None, line_spacing=1.5
+  Para[4]: alignment=None, line_spacing=1.5
+  Para[5]: alignment=None, line_spacing=1.5
+  Para[6]: alignment=None, line_spacing=1.5
+  Para[7]: alignment=None, line_spacing=1.5
+  Para[8]: alignment=None, line_spacing=1.5
+  Para[9]: alignment=None, line_spacing=1.5
+  Para[10]: alignment=None, line_spacing=1.5
+  Para[11]: alignment=None, line_spacing=1.5
+  Para[12]: alignment=None, line_spacing=1.5
+  Para[13]: alignment=None, line_spacing=1.5
+  Para[14]: alignment=None, line_spacing=1.5
+  Para[15]: alignment=None, line_spacing=1.5
+  Para[16]: alignment=None, line_spacing=1.5
+  Para[17]: alignment=None, line_spacing=1.5
+  Para[18]: alignment=None, line_spacing=1.5
+  Para[19]: alignment=None, line_spacing=1.5
+  Para[20]: alignment=None, line_spacing=1.5
+  Para[21]: alignment=None, line_spacing=1.5
+  Para[22]: alignment=None, line_spacing=1.5
+  Para[23]: alignment=None, line_spacing=1.5
+  Para[24]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=成员合作与分工落实情况
+    Run[1]: size=152400, name=仿宋, bold=None, text=
+
+    Run[2]: size=152400, name=仿宋, bold=None, text=项目组成员分工与协作较为明确，并能根据迭代需要动态调整：
+    Run[3]: size=152400, name=仿宋, bold=None, text=
+
+    Run[4]: size=152400, name=仿宋, bold=None, text=严禹：负责互感线圈制作、磁学部分理论学习与仿真验证（含磁芯
+    Run[5]: size=152400, name=仿宋, bold=None, text=/
+    Run[6]: size=152400, name=仿宋, bold=None, text=屏蔽材料调研），在第二版迭代中完成利兹线线圈制作，并推进磁芯方案总结与测试准备。
+    Run[7]: size=152400, name=仿宋, bold=None, text=
+
+    Run[8]: size=152400, name=仿宋, bold=None, text=邓小军：负责无线充电发射端总体电路方案与
+    Run[9]: size=152400, name=仿宋, bold=None, text=PCB
+    Run[10]: size=152400, name=仿宋, bold=None, text=设计，第二版迭代中提出并
+    Run[11]: size=152400, name=仿宋, bold=None, text=落实
+    Run[12]: size=152400, name=仿宋, bold=None, text=48V
+    Run[13]: size=152400, name=仿宋, bold=None, text=输入平台（新增升压）与发射端电路重设计，同时牵头推进大电流走线与器件选型优化。
+    Run[14]: size=152400, name=仿宋, bold=None, text=
+
+    Run[15]: size=152400, name=仿宋, bold=None, text=王义辰：负责
+    Run[16]: size=152400, name=仿宋, bold=None, text=PCB
+    Run[17]: size=152400, name=仿宋, bold=None, text=焊接、后级输出对接以及接收端电路
+    Run[18]: size=152400, name=仿宋, bold=None, text=/PCB
+    Run[19]: size=152400, name=仿宋, bold=None, text=重绘工作，第二版迭代中完成整流方式升级方案的学习与实现（混合整流），并配合整体联调与问题排查。
+    Run[20]: size=152400, name=仿宋, bold=None, text=
+
+    Run[21]: size=152400, name=仿宋, bold=None, text=在系统联调阶段，三名成员共同参与测试平台搭建与数据记录，确保电路、磁路与结构三方面参数能够对应到同一组实验条件，提升实验可重复性。
+  Para[25]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=工作日志与过程记录
+    Run[1]: size=152400, name=仿宋, bold=None, text=
+
+    Run[2]: size=152400, name=仿宋, bold=None, text=项目组重视过程化记录，主要记录方式包括：
+    Run[3]: size=152400, name=仿宋, bold=None, text=
+
+    Run[4]: size=152400, name=仿宋, bold=None, text=设计文档与版本管理：对原理图
+    Run[5]: size=152400, name=仿宋, bold=None, text=/PCB
+    Run[6]: size=152400, name=仿宋, bold=None, text=版本修改点进行条目化记录（如第二版修改的走线形状、板层数调整、全桥连接修正等），便于回溯与对比；
+    Run[7]: size=152400, name=仿宋, bold=None, text=
+
+    Run[8]: size=152400, name=仿宋, bold=None, text=测试记录：对每次上电测试记录输入电压电流、输出功率、效率、温升现象、以及异常波形截图等，作为迭代依据；
+    Run[9]: size=152400, name=仿宋, bold=None, text=
+
+    Run[10]: size=152400, name=仿宋, bold=None, text=采购与加工记录：对关键器件（利兹线、导磁
+    Run[11]: size=152400, name=仿宋, bold=None, text=/
+    Run[12]: size=152400, name=仿宋, bold=None, text=屏蔽材料、电容、
+    Run[13]: size=152400, name=仿宋, bold=None, text=MOSFET/
+    Run[14]: size=152400, name=仿宋, bold=None, text=驱动芯片等）建立采购清单与到货状态表，避免迭代周期被供应链因素拉长。
+  Para[26]: alignment=None, line_spacing=None
+    Run[0]: size=152400, name=仿宋, bold=None, text=协同开发与
+    Run[1]: size=152400, name=仿宋, bold=None, text=GitHub
+    Run[2]: size=152400, name=仿宋, bold=None, text=版本管理
+    Run[3]: size=152400, name=仿宋, bold=None, text=
+
+    Run[4]: size=152400, name=仿宋, bold=None, text=项目组将
+    Run[5]: size=152400, name=仿宋, bold=None, text=GitHub
+    Run[6]: size=152400, name=仿宋, bold=None, text=作为核心的协同开发与版本管理平台，确保代码、文档与设计文件的统一管理与高效协作：
+    Run[7]: size=152400, name=仿宋, bold=None, text=
+
+    Run[8]: size=152400, name=仿宋, bold=None, text=（
+    Run[9]: size=152400, name=仿宋, bold=None, text=1
+    Run[10]: size=152400, name=仿宋, bold=None, text=）代码仓库管理：在
+    Run[11]: size=152400, name=仿宋, bold=None, text=GitHub
+    Run[12]: size=152400, name=仿宋, bold=None, text=上建立项目仓库，将嵌入式固件代码（
+    Run[13]: size=152400, name=仿宋, bold=None, text=STM32 HAL
+    Run[14]: size=152400, name=仿宋, bold=None, text=库工程、
+    Run[15]: size=152400, name=仿宋, bold=None, text=FreeRTOS
+    Run[16]: size=152400, name=仿宋, bold=None, text=任务模块等）、
+    Run[17]: size=152400, name=仿宋, bold=None, text=MATLAB/Simulink
+    Run[18]: size=152400, name=仿宋, bold=None, text=仿真模型文件、以及项目技术文档纳入统一的版本控制体系。仓库采用清晰的文件目录结构，区分硬件设计（原理图
+    Run[19]: size=152400, name=仿宋, bold=None, text=/PCB
+    Run[20]: size=152400, name=仿宋, bold=None, text=）、嵌入式代码、仿真模型、技术文档等不同类别，便于团队成员快速定位所需文件。
+    Run[21]: size=152400, name=仿宋, bold=None, text=
+
+    Run[22]: size=152400, name=仿宋, bold=None, text=（
+    Run[23]: size=152400, name=仿宋, bold=None, text=2
+    Run[24]: size=152400, name=仿宋, bold=None, text=）分支协作策略：采用
+    Run[25]: size=152400, name=仿宋, bold=None, text="
+    Run[26]: size=152400, name=仿宋, bold=None, text=主分支（
+    Run[27]: size=152400, name=仿宋, bold=None, text=master/main
+    Run[28]: size=152400, name=仿宋, bold=None, text=）
+    Run[29]: size=152400, name=仿宋, bold=None, text=+ 
+    Run[30]: size=152400, name=仿宋, bold=None, text=功能分支（
+    Run[31]: size=152400, name=仿宋, bold=None, text=feature branch
+    Run[32]: size=152400, name=仿宋, bold=None, text=）
+    Run[33]: size=152400, name=仿宋, bold=None, text="
+    Run[34]: size=152400, name=仿宋, bold=None, text=的
+    Run[35]: size=152400, name=仿宋, bold=None, text=Git
+    Run[36]: size=152400, name=仿宋, bold=None, text=工作流。
+    Run[37]: size=152400, name=仿宋, bold=None, text=master
+    Run[38]: size=152400, name=仿宋, bold=None, text=分支始终保持可编译、可运行的稳定版本；各成员根据分工领域创建独立的功能分支（如
+    Run[39]: size=152400, name=仿宋, bold=None, text= firmware/fz_hbridge
+    Run[40]: size=152400, name=仿宋, bold=None, text=、
+    Run[41]: size=152400, name=仿宋, bold=None, text=firmware/adc_sensor
+    Run[42]: size=152400, name=仿宋, bold=None, text=、
+    Run[43]: size=152400, name=仿宋, bold=None, text=firmware/fod 
+    Run[44]: size=152400, name=仿宋, bold=None, text=等），在各自分支上进行开发与调试，经测试通过后通过
+    Run[45]: size=152400, name=仿宋, bold=None, text=Pull Request
+    Run[46]: size=152400, name=仿宋, bold=None, text=合并入主分支。该策略有效避免了代码冲突，确保了多人并行开发的顺畅进行。
+    Run[47]: size=152400, name=仿宋, bold=None, text=
+
+    Run[48]: size=152400, name=仿宋, bold=None, text=（
+    Run[49]: size=152400, name=仿宋, bold=None, text=3
+    Run[50]: size=152400, name=仿宋, bold=None, text=）提交记录与问题追踪：要求成员遵循规范的
+    Run[51]: size=152400, name=仿宋, bold=None, text=Commit Message
+    Run[52]: size=152400, name=仿宋, bold=None, text=格式，每次提交均标注修改模块与变更摘要（如
+    Run[53]: size=152400, name=仿宋, bold=None, text="[H-Bridge] 
+    Run[54]: size=152400, name=仿宋, bold=None, text=修复
+    Run[55]: size=152400, name=仿宋, bold=None, text=JTAG
+    Run[56]: size=152400, name=仿宋, bold=None, text=引脚释放问题，添加
+    Run[57]: size=152400, name=仿宋, bold=None, text=SysInit
+    Run[58]: size=152400, name=仿宋, bold=None, text=安全上电流程
+    Run[59]: size=152400, name=仿宋, bold=None, text="
+    Run[60]: size=152400, name=仿宋, bold=None, text=），形成清晰的版本演进历史。同时利用
+    Run[61]: size=152400, name=仿宋, bold=None, text=GitHub Issues
+    Run[62]: size=152400, name=仿宋, bold=None, text=功能记录开发过程中遇到的硬件问题、软件
+    Run[63]: size=152400, name=仿宋, bold=None, text=Bug
+    Run[64]: size=152400, name=仿宋, bold=None, text=及改进需求，建立从
+    Run[65]: size=152400, name=仿宋, bold=None, text="
+    Run[66]: size=152400, name=仿宋, bold=None, text=问题发现
+    Run[67]: size=152400, name=仿宋, bold=None, text=—
+    Run[68]: size=152400, name=仿宋, bold=None, text=任务分配
+    Run[69]: size=152400, name=仿宋, bold=None, text=—
+    Run[70]: size=152400, name=仿宋, bold=None, text=代码修复
+    Run[71]: size=152400, name=仿宋, bold=None, text=—
+    Run[72]: size=152400, name=仿宋, bold=None, text=问题关闭
+    Run[73]: size=152400, name=仿宋, bold=None, text="
+    Run[74]: size=152400, name=仿宋, bold=None, text=的完整闭环管理链路。
+    Run[75]: size=152400, name=仿宋, bold=None, text=
+
+    Run[76]: size=152400, name=仿宋, bold=None, text=（
+    Run[77]: size=152400, name=仿宋, bold=None, text=4
+    Run[78]: size=152400, name=仿宋, bold=None, text=）文档同步与知识沉淀：项目的技术文档（如
+    Run[79]: size=152400, name=仿宋, bold=None, text=PROJECT_REFERENCE.md
+    Run[80]: size=152400, name=仿宋, bold=None, text=、
+    Run[81]: size=152400, name=仿宋, bold=None, text=README.md
+    Run[82]: size=152400, name=仿宋, bold=None, text=及各模块接口说明）同步纳入仓库管理并随代码更新而同步维护，确保文档与实际工程状态保持一致。重要设计决策与调试经验以
+    Run[83]: size=152400, name=仿宋, bold=None, text=Markdown
+    Run[84]: size=152400, name=仿宋, bold=None, text=格式记录于仓库文档中，便于团队成员随时查阅与知识传承。
+    Run[85]: size=152400, name=仿宋, bold=None, text=
+
+    Run[86]: size=152400, name=仿宋, bold=None, text=（
+    Run[87]: size=152400, name=仿宋, bold=None, text=5
+    Run[88]: size=152400, name=仿宋, bold=None, text=）版本回溯与迭代对比：得益于
+    Run[89]: size=152400, name=仿宋, bold=None, text=Git
+    Run[90]: size=152400, name=仿宋, bold=None, text=的版本管理能力，项目组能够在硬件迭代（第一版
+    Run[91]: size=152400, name=仿宋, bold=None, text=→
+    Run[92]: size=152400, name=仿宋, bold=None, text=第二版）中方便地对比历史版本的电路设计参数与代码实现，快速定位版本间的差异点，为迭代优化提供了可靠的技术参考基线。
